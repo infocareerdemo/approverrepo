@@ -15,4 +15,9 @@ public class AppController {
 	  public String welcome() {
 		  return "Welcome";
 	  }
+	  
+	  @GetMapping("/student")
+	  public String getstudent() {
+		  return "Student";
+	  }
 }
