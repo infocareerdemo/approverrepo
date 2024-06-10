@@ -15,9 +15,4 @@ public class AppController {
 	  public String welcome() {
 		  return "Welcome";
 	  }
-	  
-	  @GetMapping("/user")
-	  public String getUserData() {
-		  return "user";
-	  }
 }
